@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "950520306764",
+    "project_id": "firebase-xabiagame"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950520306764:android:7d045a0549b2c423",
+        "android_client_info": {
+          "package_name": "com.example.informatica.xabiagame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950520306764-li0rff34bd9eosuq85ufbsclaitei4l0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.informatica.xabiagame",
+            "certificate_hash": "08690F98FCD00453D3F60384CC60DE569349A12B"
+          }
+        },
+        {
+          "client_id": "950520306764-pk8dvm3cb3nqucsbtve8gccvdin822ht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnPTeAhkmN3VywEq5D4P5jSsPrU4MZ_0U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

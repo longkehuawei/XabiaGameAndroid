@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <group android:id="@+id/menutop" android:checkableBehavior="single">
+            <item
+                android:id="@+id/menu_perfil"
+                android:icon="@drawable/profile"
+                android:title="@string/MiPerfil"
+                />
+            <item
+                android:id="@+id/menu_gymkh_compl"
+                android:icon="@drawable/senal"
+                android:title="@string/GymCompleted"
+                />
+        </group>
+    <group android:id="@+id/menumedio" android:checkableBehavior="single">
+            <item
+                android:id="@+id/abouThisApp"
+                android:icon="@drawable/escudoazulsinfondo"
+                android:title="@string/About"/>
+    </group>
+    <group android:id="@+id/menubott" android:checkableBehavior="single">
+            <item
+                android:id="@+id/menu_cerrarsesion"
+                android:icon="@drawable/logoff"
+                android:title="@string/CerrarSesion"/>
+    </group>
+
+    </menu>

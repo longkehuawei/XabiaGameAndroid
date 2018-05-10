@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Xabia Game</string>
+    <string name="TxtRuta">Die Sie interessiert mitt nur routen? Klicken Sie hier:</string>
+    <string name="Nuevo_Usuario">Neuer Nutzer</string>
+    <string name="Entrar">Login</string>
+    <string name="Alomejorestadetras">Vielleicht sind Sie hinter</string>
+    <string name="Bastantecercavaya">Ziemlich nah</string>
+    <string name="Cancel">Stornieren</string>
+    <string name="CerrandoSesion">Abschlusssitzung</string>
+    <string name="CerrarSesion">Sitzung beenden</string>
+    <string name="Desconectar">Abschalten</string>
+    <string name="Enhorabuenalohasencontrado">Wir gratulieren Ihnen gefunden</string>
+    <string name="Entrando">Eingabe</string>
+    <string name="Estascerca">Sie sind nähe</string>
+    <string name="Exito1">Gespeichert. Umleiten zu Bildschirm-Missionen.</string>
+    <string name="Estaslejostranquilo">Diese weit, ruhig</string>
+    <string name="ExitoAlGuardar">Erfolg Einsparung</string>
+    <string name="Fallo1">Konnte nicht abgeschlossen Mission speichern. Umleiten zu starten.</string>
+    <string name="FalloAlGuardar">Fehler beim Speichern</string>
+    <string name="GymCompleted">Abgeschlossene Missionen</string>
+    <string name="Hybrid">Hybrid</string>
+    <string name="Incio">Einleitung</string>
+    <string name="InfoDialog">Sie haben noch einen Google Mail-Nutzer? Ich glaube den Button drücken!</string>
+    <string name="Informacion">Informationen</string>
+    <string name="Jugar">Spielen</string>
+    <string name="Meaburro">Ich bin langweilig</string>
+    <string name="MiPerfil">Profil</string>
+    <string name="NoHayUsuarioConectado">Kein Benutzer Online</string>
+    <string name="Road_Map">Normale Karte</string>
+    <string name="Rutas">Wegs</string>
+    <string name="Rutas_Javea">Javea Wegs</string>
+    <string name="Salir">Abgeklemmt</string>
+    <string name="Satellite">Satellite</string>
+    <string name="Select_Map_Type">Wählen Sie den Kartentyp</string>
+    <string name="SiSalesSeCerraraLaSesion">Wenn Sie die Sitzung verlassen wurde geschlossen</string>
+    <string name="Siguebuscando">Suchen noch</string>
+    <string name="Siguiente">Next</string>
+    <string name="Terrain">Boden</string>
+    <string name="Vaunultimoesfuerzo">Es ist eine letzte Anstrengung</string>
+    <string name="Yquetedireyo">Und ich sage Ihnen ...</string>
+    <string name="Ysieseseedificio">Und wenn das Gebäude?</string>
+    <string name="Ysiestadetras">Und wenn dieser hinter?</string>
+    <string name="jugando">Spielen</string>
+    <string name="sisalesseacabaraeljuego">Wenn Sie das Spiel zu gehen war über</string>
+</resources>

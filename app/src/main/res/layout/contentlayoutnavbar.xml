@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    tools:showIn="@layout/layout_inicio_juego_activity">
+
+
+    <!-- Resto de la interfaz de usuario -->
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context="com.example.informatica.xabiagame.InicioJuegoActivity">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBar"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:fitsSystemWindows="true">
+
+
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:id="@+id/collapsingToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed"
+                android:fitsSystemWindows="true"
+                app:contentScrim="?attr/colorPrimary"
+                app:expandedTitleMarginStart="48dp"
+                app:expandedTitleMarginEnd="64dp"
+                app:title="Misiones:">
+
+                <!--<com.airbnb.lottie.LottieAnimationView-->
+                <!--android:id="@+id/animation_view2"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--app:lottie_loop="true"-->
+                <!--app:lottie_autoPlay="true" />-->
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                    app:layout_collapseMode="pin" />
+
+            </android.support.design.widget.CollapsingToolbarLayout>
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffffff"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/recyclerViewMisiones">
+
+                </android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+        <com.rey.material.widget.TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ayuda"
+            android:textSize="26sp"
+            android:layout_marginBottom="200dp"
+            android:layout_marginRight="80dp"
+            android:layout_gravity="bottom|end"
+            app:fab_elevation="6dp"
+            app:pressedTranslationZ="12dp"
+            android:textColor="@color/rojito"
+            android:visibility="invisible"
+            android:id="@+id/txtAyuda"
+            android:background="@drawable/bordernegrotrans"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingEnd="10dp"
+            />
+
+        <com.rey.material.widget.TextView
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bordernegrotrans"
+            android:text="Atras"
+            android:textSize="26sp"
+            android:layout_marginBottom="110dp"
+            android:layout_marginRight="80dp"
+            android:layout_gravity="bottom|end"
+            app:fab_elevation="6dp"
+            app:pressedTranslationZ="12dp"
+            android:textColor="@color/rojito"
+            android:id="@+id/txtAtras"
+            android:visibility="invisible"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/interrogation"
+            android:tint="@color/blanco"
+            app:backgroundTint="@color/naranj2"
+            android:id="@+id/fabButHelp"
+            android:layout_marginBottom="190dp"
+            android:layout_marginRight="17dp"
+            android:layout_gravity="bottom|end"
+            app:fab_elevation="6dp"
+            app:pressedTranslationZ="12dp"
+            android:visibility="invisible"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/atrasunodos"
+            android:tint="@color/blanco"
+            android:id="@+id/fabBut"
+            android:layout_marginBottom="100dp"
+            app:backgroundTint="@color/asulito"
+            android:layout_marginRight="17dp"
+            android:layout_gravity="bottom|end"
+            app:fab_elevation="6dp"
+            app:pressedTranslationZ="12dp"
+            android:visibility="invisible"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/plus"
+            android:tint="@color/blanco"
+            android:id="@+id/fabButPlus"
+            android:layout_margin="15dp"
+            android:layout_gravity="bottom|end"
+            app:fab_elevation="6dp"
+            app:pressedTranslationZ="12dp"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>

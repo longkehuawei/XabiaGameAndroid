@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+        android:oneshot="true">
+        <item android:drawable="@drawable/wifi" android:duration="1" />
+        <item android:drawable="@drawable/wifidos" android:duration="1" />
+        <item android:drawable="@drawable/wifitres" android:duration="1" />
+</animation-list>

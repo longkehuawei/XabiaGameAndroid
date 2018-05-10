@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActFragMiPerfil">
+
+
+    <TextView
+        android:text="@string/MiPerfil"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/Blacky"
+        android:layout_width="116dp"
+        android:layout_height="37dp"
+        android:id="@+id/textView5"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ImageButton
+        android:layout_width="44dp"
+        android:layout_height="45dp"
+        app:srcCompat="@drawable/atrasunodos"
+        android:id="@+id/imgBtnAtrasMperf"
+        android:background="@android:color/transparent"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:text="@string/Nombre"
+        android:textStyle="bold"
+        android:textColor="@color/Blacky"
+        android:layout_width="344dp"
+        android:layout_height="30dp"
+        android:id="@+id/textView6"
+        android:gravity="bottom"
+        android:textSize="18sp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:text="unknown"
+        android:textSize="18sp"
+        android:layout_width="344dp"
+        android:layout_height="31dp"
+        android:id="@+id/txtNombreGet"
+        android:gravity="bottom"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:text="@string/Apellido"
+        android:textStyle="bold"
+        android:textColor="@color/Blacky"
+        android:layout_width="344dp"
+        android:layout_height="31dp"
+        android:id="@+id/textView7"
+        android:gravity="bottom"
+        android:textSize="18sp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombreGet" />
+
+    <TextView
+        android:text="unknown"
+        android:textSize="18sp"
+        android:layout_width="344dp"
+        android:layout_height="31dp"
+        android:id="@+id/txtApeGet"
+        android:gravity="bottom"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintHorizontal_bias="0.56"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:text="@string/Email"
+        android:textStyle="bold"
+        android:textColor="@color/Blacky"
+        android:layout_width="344dp"
+        android:layout_height="31dp"
+        android:gravity="bottom"
+        android:textSize="18sp"
+        android:id="@+id/textView8"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtApeGet" />
+
+    <TextView
+        android:text="unknown"
+        android:textSize="18sp"
+        android:layout_width="344dp"
+        android:layout_height="52dp"
+        android:gravity="top"
+        android:id="@+id/txtGetEmail"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintHorizontal_bias="0.54"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:text="@string/NombreUsu"
+        android:textStyle="bold"
+        android:textColor="@color/Blacky"
+        android:layout_height="31dp"
+        android:gravity="bottom"
+        android:textSize="18sp"
+        android:id="@+id/textView10"
+        android:layout_width="344dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="24dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        app:layout_constraintHorizontal_bias="0.57"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtGetEmail" />
+
+    <TextView
+        android:text="unknown"
+        android:textSize="18sp"
+        android:layout_height="31dp"
+        android:gravity="bottom"
+        android:id="@+id/txtGetNomUsu"
+        android:layout_width="344dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+
+</android.support.constraint.ConstraintLayout>

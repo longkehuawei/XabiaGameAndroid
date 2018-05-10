@@ -1,0 +1,81 @@
+<resources>
+    <string name="texto1">Esta aplicaci&#243;n esta pensada para aquellos que les guste la aventura. Tenemos dos funciones, la primera es la de las gymkhanas pensada para los peque&#328;os o tambi&#233;n para aquellos que les guste la historia de J&#225;vea y aprender mas de ella.</string>
+    <string name="texto2">Esta aplicaci&#243;n ha sido hecha por Santiago Albus en colaboraci&#243;n junto al ayuntamiento de J&#225;vea. Gracias al programa de pr&#225;cticas que tiene el Instituto N1 de J&#225;vea.</string>
+    <string name="texto3">Todas las im&#225;genes que hay en la aplicaci&#243;n pertenecen al ayuntamiento de J&#225;vea.</string>
+    <string name="texto4">Para cualquier contacto o informaci&#243;n sobre la aplicaci&#243;n pod&#233;is enviar un mensaje al email dado a continuacion. Se responder&#225; lo antes posible.</string>
+    <string name="Texto5">santialbus&#64;gmail.com</string>
+    <string name="Texto6">https&#58;&#47;&#47;www.linkedin.com&#47;in&#47;santi&#45;albus&#45;531985136</string>
+    <string name="Texto7">&#169; 2017 - Autor: Santiago Albus</string>
+    <string name="TextoAyuda1">Bot&#243;n de herramientas</string>
+    <string name="TextoAyuda2">Aqui encontraras el bot&#243;n de ayuda el de ir atr&#225;s</string>
+
+    <string name="InfoJuego">Informaci&#243;n del juego</string>
+    <string name="Info">Este juego esta ambientado en J&#225;vea. Asi que si est&#225;s ubicado en otra ciudad o pueblo, no dispondr&#225;s de otras funciones e incluso, te funcionar&#225; mal. La funcion rutas funcionar&#225; bien.</string>
+
+    <string name="About">Sobre nosotros</string>
+    <string name="Desconectar">Desconectar</string>
+    <string name="app_name">Xabia Game</string>
+    <string name="Nuevo_Usuario">Usuario Nuevo</string>
+    <string name="Entrar">Entrar</string>
+    <string name="OtroUsuario">Cambiar Usuario</string>
+    <string name="TxtRuta">Solo te interesan rutas? entra aquí </string>
+    <string name="Nombre">Nombre</string>
+    <string name="Apellido">Apellido</string>
+    <string name="DNI">DNI</string>
+    <string name="Email">E-mail</string>
+    <string name="Contrasenya">Contraseña</string>
+    <string name="ContrasenyaNew">Repetir Contraseña</string>
+    <string name="Hecho">Hecho</string>
+    <string name="Siguiente">Siguiente</string>
+    <string name="NombreUsu">Nombre usuario </string>
+    <string name="Edad">Edad </string>
+    <string name="Rutas">Rutas </string>
+    <string name="Recuerdame">Recuerdame </string>
+    <string name="Jugar">Jugar </string>
+    <string name="InfoDialog">¿No tienes un usuario de Gmail? ¡Crealo apretando en el boton de abajo! </string>
+    <string name="MiPerfil">Mi Perfil</string>
+    <string name="GymCompleted">Gymkhanas/Misiones Completadas</string>
+    <string name="Incio">Inicio</string>
+    <string name="CerrarSesion">Cerrar Sesion</string>
+    <string name="Rutas_Javea">Rutas en Jávea</string>
+    <string name="EditaPerfil">Editar Perfil</string>
+    <string name="CambiaContra">Cambiar contraseña</string>
+    <string name="title_activity_google_maps_ruta">Map</string>
+    <string name="provider_authority">com.example.informatica.xabiagame</string>
+    <string name="Road_Map">Mapa normal</string>
+    <string name="Hybrid">Hibrido</string>
+    <string name="Satellite">Satelite</string>
+    <string name="jugando">Jugando</string>
+    <string name="Terrain">Terreno</string>
+    <string name="Select_Map_Type">Selecciona tipo de mapa</string>
+    <string name="SiSalesSeCerraraLaSesion">Si sales se cerrara la sesion</string>
+    <string name="CerrandoSesion">Cerrando sesion</string>
+    <string name="Cancel">Cancelar</string>
+    <string name="Salir">Salir</string>
+    <string name="TerminandoEljuego">Terminando el juego</string>
+    <string name="sisalesseacabaraeljuego">Si sales se acabara el juego</string>
+    <string name="FalloAlGuardar">Fallo al guardar</string>
+    <string name="Fallo1">No se pudo guardar la mision completada. Redireccionando a inicio.</string>
+    <string name="ExitoAlGuardar">Exito al guardar</string>
+    <string name="Exito1">Guardado. Redireccionando a la pantalla de misiones.</string>
+    <string name="Informacion">Informacion</string>
+    <string name="NoHayUsuarioConectado">No hay usuario conectado</string>
+    <string name="Entrando">Entrando..</string>
+
+    <string name="Enhorabuenalohasencontrado">Enhorabuena lo has encontrado</string>
+
+    <string name="Estascerca">Estas cerca</string>
+    <string name="Bastantecercavaya">Bastante cerca vaya</string>
+    <string name="Alomejorestadetras">A lo mejor esta detras</string>
+    <string name="Ysiestadetras">¿Y si esta detras?</string>
+    <string name="Ysieseseedificio">¿Y si es ese edificio?</string>
+
+    <string name="Siguebuscando">Sigue buscando</string>
+    <string name="Estaslejostranquilo">Estas lejos tranquilo</string>
+    <string name="Meaburro">Me aburro</string>
+    <string name="Yquetedireyo">Y que te dire yo…</string>
+    <string name="Vaunultimoesfuerzo">Va un ultimo esfuerzo</string>
+    <string name="title_activity_helper_for_noobs">HelperActivityForNoobs</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

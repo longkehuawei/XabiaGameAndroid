@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Xabia Game</string>
+    <string name="Alomejorestadetras">A lo mejor esta detras</string>
+    <string name="Apellido">Apellido</string>
+    <string name="Bastantecercavaya">Bastante cerca vaya</string>
+    <string name="Cancel">Cancelar</string>
+    <string name="CerrandoSesion">Cerrando sesion</string>
+    <string name="CerrarSesion">Cerrar sesion</string>
+    <string name="Desconectar">Desconectar</string>
+    <string name="Enhorabuenalohasencontrado">Enhorabuena lo has encontrado</string>
+    <string name="Entrando">Entrando..</string>
+    <string name="Entrar">Entrar</string>
+    <string name="Estascerca">Estas cerca</string>
+    <string name="Estaslejostranquilo">Estas lejos tranquilo</string>
+    <string name="Exito1">Guardado. Redireccionando a la pantalla de misiones.</string>
+    <string name="ExitoAlGuardar">Exito al guardar</string>
+    <string name="Fallo1">No se pudo guardar la mision completada. Redireccionando a inicio.</string>
+    <string name="FalloAlGuardar">Fallo al guardar</string>
+    <string name="GymCompleted">Misiones completadas</string>
+    <string name="Hecho">Hecho</string>
+    <string name="Hybrid">HIbrido</string>
+    <string name="Incio">Inicio</string>
+    <string name="InfoDialog">"¿No tienes un usuario de Gmail? ¡Crealo apretando en el boton de abajo! "</string>
+    <string name="Informacion">Informacion</string>
+    <string name="Jugar">Jugar</string>
+    <string name="Meaburro">Me aburro</string>
+    <string name="MiPerfil">Mi perfil</string>
+    <string name="NoHayUsuarioConectado">No hay usuario conectado</string>
+    <string name="OtroUsuario">Otro usuario</string>
+    <string name="Road_Map">Mapa normal</string>
+    <string name="Rutas">Rutas</string>
+    <string name="Rutas_Javea">Rutas en Jávea</string>
+    <string name="Salir">Salir</string>
+    <string name="Satellite">Satellite</string>
+    <string name="Select_Map_Type">Selecciona tipo de mapa</string>
+    <string name="SiSalesSeCerraraLaSesion">Si sales se cerrara la sesion</string>
+    <string name="Siguebuscando">Sigue buscando</string>
+</resources>

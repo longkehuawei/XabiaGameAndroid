@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Titulo: Unknown"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTituloJugando"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/Blacky" />
+
+    <TextView
+        android:text="Pista"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18"
+        android:textColor="@color/Blacky"
+        android:textSize="18sp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtTituloJugando" />
+
+    <TextView
+        android:text="Unknown"
+        android:layout_width="328dp"
+        android:layout_height="123dp"
+        android:id="@+id/txtPistaJugando"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        android:background="@drawable/border"
+        android:gravity="center" />
+
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="37dp"
+            app:srcCompat="@drawable/wifitres"
+            android:id="@+id/imgSenyal"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtPistaJugando"
+            android:layout_marginRight="64dp"
+            android:layout_marginEnd="64dp" />
+
+
+
+    <TextView
+        android:text="00.0km"
+        android:gravity="center|bottom"
+        android:id="@+id/txtKmJugando"
+        android:layout_width="77dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="64dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textSize="20sp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtPistaJugando"
+        />
+
+    <TextView
+        android:text="¡ENCONTRADO!"
+        android:layout_width="328dp"
+        android:layout_height="94dp"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:id="@+id/textView21"
+        android:layout_marginTop="48dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtKmJugando"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/border" />
+
+    <Button
+        android:text="Busca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSiguienteOAcabado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="24dp"
+        android:backgroundTint="@color/AzulClaroJavea"
+        android:textColor="@color/blanco"/>
+
+    <ImageView
+        android:layout_width="169dp"
+        android:layout_height="68dp"
+        app:srcCompat="@drawable/depturismenofondo"
+        android:id="@+id/imageView3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp" />
+
+
+</android.support.constraint.ConstraintLayout>

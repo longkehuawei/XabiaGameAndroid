@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="AzulClaroJavea">#0047bb</color>
+    <color name="Blacky">#000000</color>
+    <color name="verdesito">#2EFE2E</color>
+    <color name="rojito">#FF0000</color>
+    <color name="asulito">#5858FA</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="naranj">#DF7401</color>
+    <color name="naranj2">#FF8000</color>
+</resources>
